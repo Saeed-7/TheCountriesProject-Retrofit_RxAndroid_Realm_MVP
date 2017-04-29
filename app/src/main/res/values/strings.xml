@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">The Countries</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="change_language_text">Change Language:</string>
+    <string name="application_language_En">English</string>
+    <string name="application_language_Pr">Persian</string>
+
+    <string name="footer">Created by §aeed-7</string>
+    <string name="splashError">Please check your internet connection and try again.</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="exit">Exit</string>
+    <string name="exitConfirm">Are you sure to exit?</string>
+    <string name="positive">Apply</string>
+    <string name="negative">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+    <string name="symbol">Symbol: \u0020 \u0020 \u0020</string>
+    <string name="square_kilometer">[km^2]</string>
+
+    <!--Search Strings-->
+    <string name="search_search">Search</string>
+    <string name="search_hint">Search ...</string>
+    <string name="search_on">Search on :</string>
+    <string name="search_country_name">Country Name</string>
+    <string name="search_capitals">Capitals</string>
+    <string name="search_currencies">Currencies</string>
+    <string name="search_languages">Languages</string>
+    <string name="search_alpha2Code">Alpha2 Code</string>
+    <string name="search_alpha3Code">Alpha3 Code</string>
+    <string name="search_topLevelDomain">Top Level Domain</string>
+    <string name="search_callingCodes">Calling Codes</string>
+
+    <!--Sort Strings-->
+    <string name="sort_Title">Sort by:</string>
+    <string name="sort_AtoZ">Name A to Z</string>
+    <string name="sort_ZtoA">Name Z to A</string>
+    <string name="sort_population_descending">Population - Descending</string>
+    <string name="sort_population_ascending">Population - Ascending</string>
+    <string name="sort_area_descending">Area - Descending</string>
+    <string name="sort_area_ascending">Area - Ascending</string>
+    <string name="sort_gini_descending">Social Inequality - Descending</string>
+    <string name="sort_gini_ascending">Social Inequality - Ascending</string>
+
+    <!--Country Strings-->
+    <string name="country_name">Name</string>
+    <string name="country_topLevelDomain">Top Level Domain</string>
+    <string name="country_alpha2Code">Alpha2 Code</string>
+    <string name="country_alpha3Code">Alpha3 Code</string>
+    <string name="country_callingCodes">Calling Codes</string>
+    <string name="country_capital">Capital</string>
+    <string name="country_altSpellings">Alt Spellings</string>
+    <string name="country_relevance">Relevance</string>
+    <string name="country_region">Region</string>
+    <string name="country_subregion">Subregion</string>
+    <string name="country_translations">Translations</string>
+    <string name="country_population">Population</string>
+    <string name="country_latlng">Coordinate</string>
+    <string name="country_demonym">Demonym</string>
+    <string name="country_area">Area</string>
+    <string name="country_gini">Social Inequality</string>
+    <string name="country_timezones">Timezones</string>
+    <string name="country_borders">Borders</string>
+    <string name="country_nativeName">Native Name</string>
+    <string name="country_numericCode">Numeric Code</string>
+    <string name="country_currencies">Currencies</string>
+    <string name="country_languages">Languages</string>
+    <string name="country_Unknown">Unknown</string>
+
+    <!--Translation Strings-->
+    <string name="de">Deutsch: </string>
+    <string name="es">Espanol: </string>
+    <string name="fr">French: </string>
+    <string name="ja">Japanese: </string>
+    <string name="it">Italian: </string>
+    <string name="br">Brazilian: </string>
+    <string name="pt">Portuguese: </string>
+
+
+    <!--ListView Subtitle Strings-->
+    <string name="capital">capital</string>
+    <string name="population">population</string>
+    <string name="area">area</string>
+
+    <!--Source Strings-->
+    <string name="sourceTitle">Sources:</string>
+    <string name="wikipedia">en.wikipedia.org</string>
+    <string name="worldBank">www.worldbank.org</string>
+
+
+</resources>

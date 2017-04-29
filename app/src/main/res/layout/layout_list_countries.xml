@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTop"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_number"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp"
+            android:textColor="@color/text_color_b"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:id="@+id/imageView_flag"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView_number"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_name"
+            android:layout_toRightOf="@+id/imageView_flag"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color_b"
+            android:textSize="20sp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView_title"
+            android:layout_toRightOf="@+id/imageView_flag"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/text_color_b"
+            android:textSize="14sp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/textView_subtitle"
+            android:layout_toRightOf="@+id/textView_title"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/text_color_b"
+            android:textSize="14sp"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

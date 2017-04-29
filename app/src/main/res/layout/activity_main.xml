@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.index.IndexFragment"
+    android:background="@drawable/background_color_b"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:background="@drawable/background_color_a">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_search"
+            android:src="@drawable/ic_luncher1"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/textView_header"
+            android:layout_toRightOf="@+id/imageView_search"
+            android:textSize="26sp"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color_b"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/loadingBar"
+            android:visibility="visible"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listViewCountries"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/topImage"
+            android:layout_margin="2dp"
+            android:drawSelectorOnTop="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
