@@ -56,13 +56,6 @@ dependencies {
     compile 'com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0'
     provided 'javax.annotation:jsr250-api:1.0'
 
-    //JazzyListView
-    compile 'com.twotoasters.jazzylistview:library:1.2.1'
-    compile 'com.twotoasters.jazzylistview:library-recyclerview:1.2.1'
-
     //picasso
     compile 'com.squareup.picasso:picasso:2.5.2'
-
-    //Google Map
-    compile 'com.google.android.gms:play-services:9.6.1'
 }
